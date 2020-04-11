@@ -12,8 +12,8 @@ from api.views import categories_list, category_restaurants, restaurants_product
 urlpatterns = [
     path('categories/', categories_list),
     path('categories/<int:category_id>/', category_restaurants),
-    path('categories/<int:company_id>/<int:restaurant_id>/', restaurants_products),
-    path('categories/<int:company_id>/<int:restaurant_id>/<int:product_id>', product_order),
+    path('categories/<int:category_id>/<int:restaurant_id>/', restaurants_products),
+    path('categories/<int:category_id>/<int:restaurant_id>/<int:product_id>', product_order),
     path('login/', login),
     path('signup/', signup)
 ]
