@@ -6,22 +6,50 @@ from django.http import JsonResponse
 
 @csrf_exempt
 def categories_list(request):
-    pass
+    if request.method == 'GET':
+        pass
+    elif request.method == 'POST':
+        pass
+    elif request.method == 'PUT':
+        pass
+    elif request.method == 'DELETE':
+        pass
 
 
 @csrf_exempt
-def category_restaurants(request):
-    pass
+def category_restaurants(request, category_id):
+    if request.method == 'GET':
+        pass
+    elif request.method == 'POST':
+        pass
+    elif request.method == 'PUT':
+        pass
+    elif request.method == 'DELETE':
+        pass
 
 
 @csrf_exempt
-def restaurants_products(request):
-    pass
+def restaurants_products(request, restaurant_id):
+    if request.method == 'GET':
+        pass
+    elif request.method == 'POST':
+        pass
+    elif request.method == 'PUT':
+        pass
+    elif request.method == 'DELETE':
+        pass
 
 
 @csrf_exempt
-def product_order(request):
-    pass
+def product_order(request, product_id):
+    if request.method == 'GET':
+        pass
+    elif request.method == 'POST':
+        pass
+    elif request.method == 'PUT':
+        pass
+    elif request.method == 'DELETE':
+        pass
 
 
 @csrf_exempt
